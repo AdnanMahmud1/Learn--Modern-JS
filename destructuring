@@ -1,0 +1,16 @@
+var user={
+    id: 22121,
+    name: "Evan",
+    phone: 342323,
+    // education: {
+    //     degree: 'masters'
+    // }
+
+}
+
+const {phone: contatNo} = user;
+
+console.log(contatNo);
+
+const {education:{degree}= {}}= user
+console.log(degree);

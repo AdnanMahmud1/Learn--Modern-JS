@@ -55,5 +55,6 @@ var numbers = [1, 3, 5, 7];
 // console.log(result);
 
 //------Spread Operator
-var newNumbers= [...numbers, ...numbers]
+var newNumbers= [...numbers]
+numbers.push(4);
 console.log(newNumbers);
