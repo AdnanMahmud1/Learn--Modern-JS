@@ -1,0 +1,29 @@
+// var user={
+//     id: 22121,
+//     name: "Evan",
+//     phone: 342323,
+//     // education: {
+//     //     degree: 'masters'
+//     // }
+
+// }
+
+// const {phone: contatNo} = user;
+
+// console.log(contatNo);
+
+// const {education:{degree}= {}}= user
+// console.log(degree);
+
+var name1={
+    id:78,
+    name: "Evan"
+};
+var name2={
+    id:58,
+    name: "Zayan"
+};
+
+[name2, name1] =[name1, name2]
+
+console.log(name1, name2)
